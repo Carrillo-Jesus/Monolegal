@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.facturas-table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.facturas-table th,
+.facturas-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.facturas-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.facturas-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.facturas-table tr:hover {
+  background-color: #ddd;
+}
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color:  #dda235;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.factura-container {
+  display: flex;
+  justify-content: center;
+}
+
+.factura-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.factura-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.factura-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.total {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.estado {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* Estilos para estados */
+.estado.pendiente {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.estado.pagada {
+  background-color: #28a745;
+  color: white;
+}
+
+.estado.vencida {
+  background-color: #dc3545;
+  color: white;
+}

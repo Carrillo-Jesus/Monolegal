@@ -1,0 +1,6 @@
+@Monolegal_HostAddress = http://localhost:5134
+
+GET {{Monolegal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
