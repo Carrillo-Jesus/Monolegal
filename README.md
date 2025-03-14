@@ -57,13 +57,13 @@ npm run dev
 
 ### Interfaz de usuario
 
-![Pantalla principal](imagenes/1.png)
+![Pantalla principal](Imagenes/1.png)
 *Pantalla principal con listado de facturas*
 
-![Detalle de factura](imagenes/2.png)
+![Detalle de factura](Imagenes/2.png)
 *Detalle de una factura*
 
 ### Correos electrónicos
 
-![Correo de factura](imagenes/4.png)
+![Correo de factura](Imagenes/4.png)
 *Ejemplo de correo con detalles de factura*
